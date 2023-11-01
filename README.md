@@ -22,7 +22,7 @@ Next, you will need a ``<header>``.
 
 Inside of your ``<header>``, you'll need a first-level heading, your logo, and a ``<nav>`` with three drop-down menus. These menus should be structured as follows: 
 
-   level one heading content: Adoptable Floofs &amp; Fur Babies
+   0. level one heading content: Adoptable Floofs &amp; Fur Babies
 
     1. Adopt
         - Kittens & Cats
@@ -51,7 +51,7 @@ Because of the different states and layouts of your navigation menu, you will ne
 The skeleton of your code should look something like this:
 
 ```HTML
-	    <header>
+	<header>
         <div class="inner-container wide-flex">
             <div class="flex-container">
                 <!-- First-Level Heading Here -->
