@@ -1,0 +1,62 @@
+/* Colour Palette 
+    
+    off-white  #FAFAFA
+    dark grey  #263238
+    hot pink   #EC407A
+    yellow     #FDD835
+    green      #8BC34A
+    blue       #4A8BC3 
+*/
+
+:root {
+    --off-white:#FAFAFA;
+    --dk-grey:  #263238;
+    --pink:     #EC407A;
+    --purple:   #824AC3;
+    --yellow:   #FDD835;
+    --green:    #8BC34A;
+    --blue:     #4A8BC3;
+}
+
+body {
+    background: var(--off-white);
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Utility Classes */
+
+
+/* toggle */
+.menu-icon span {
+    display: block;
+    width: 4rem;
+    height: 1rem;
+    background-color: var(--pink);
+    cursor: pointer;
+    border-radius: 0.25rem;
+    margin-bottom: 0.5rem;
+    /** set the position to relative to here to allow the 2nd and 3rd span element be positioned to create the 'x' on hover **/
+    position: relative;
+}
+
+.menu-icon p { 
+    text-align: center; 
+    color: var(--off-white);
+    margin-bottom: 0;
+    line-height: 1;
+    font-size: 0.875rem;
+}
+
+
+/** footer **/
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+footer p { 
+    padding: 0.5rem 0;
+}
+
+/* wider menu  */
+
