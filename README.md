@@ -22,7 +22,7 @@ Next, you will need a ``<header>``.
 
 Inside of your ``<header>``, you'll need a first-level heading, your logo, and a ``<nav>`` with three drop-down menus. These menus should be structured as follows: 
 
-   0. level one heading content: Adoptable Floofs &amp; Fur Babies
+    level one heading content: Adoptable Floofs &amp; Fur Babies
 
     1. Adopt
         - Kittens & Cats
